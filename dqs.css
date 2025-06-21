@@ -1,0 +1,107 @@
+*{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+}
+body {
+    background-image: url(280b54a3-004d-42b8-a931-7a123b096614.png);
+}
+h1 {
+  padding-left: 60px;
+  padding-right: 60px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.471);
+    font-size: 25px;
+    color: #ffffff;
+    font-family: cursive;
+}
+p { 
+  display: inline-block;
+  padding: 15px;
+ backdrop-filter: blur(2px);
+  border-radius: 80px;
+ margin-top: 300px;
+    background-color: rgba(0, 0, 0, 0.205);
+  
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+}
+#options {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
+.b2 {
+    flex: 1;
+    min-width: 100px;
+    width: 300px;
+    height: 120px;
+    padding: 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(255, 228, 196, 0.579);
+    color: black;
+    font-family: cursive;
+    font-size: 30px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-align: center;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+
+.b2:hover{
+  font-size: 25px;
+  background-color: rgba(214, 192, 164, 0.721);
+  color: rgb(0, 0, 0);
+  transform: scale(1.06);
+  cursor: pointer;
+}
+.b2:active{
+  font-size: 30px;
+  transform: scale(1.06);
+  background-color: rgba(0, 0, 0, 0.715);
+  color: rgb(216, 216, 216);
+}
+#anime1 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 45vh;
+  left: 2vw;
+  pointer-events: none;
+  z-index: 3;
+  opacity: 0.7;
+  transform: scale(3);
+}
+#anime2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -20vh;
+  left: 40vw;
+  pointer-events: none;
+  z-index: 3;
+  opacity: 0.7;
+  transform: scale(2);
+}
+#anime3 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -30vh;
+  left: 40vw;
+  pointer-events: none;
+  z-index: 3;
+  opacity: 0.7;
+  transform: scale(5.5);
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.page2{
+    background-image: url(mow.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+h1 {
+  padding-left: 60px;
+  padding-right: 60px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.471);
+    font-size: 25px;
+    color: #ffffff;
+    font-family: cursive;
+}
+p { 
+    padding-top: 300px;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    margin: 10px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+     z-index: 4;
+}
+.b2 {
+    margin: 10px;
+    border: 10px;
+    border-color: black;
+    width: 300px;
+    height: 120px;
+    padding: 10px;
+    background-color: rgba(255, 228, 196, 0.812);
+    color: black;
+    border-radius: 7px;
+    font-family: cursive;
+    font-size: 45px;
+     z-index: 4;
+    transition: all 0.3s;
+}
+
+.b2:hover{
+  font-size: 60px;
+  background-color: rgba(214, 192, 164, 0.929);
+  color: rgb(0, 0, 0);
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.b2:active{
+  font-size: 75px;
+  transform: scale(1.06);
+  background-color: rgba(215, 0, 0, 0.923);
+  color: rgb(94, 0, 0);
+}
+.b3 {
+    margin: 10px;
+    border: 10px;
+    border-color: black;
+    width: 300px;
+    height: 120px;
+    padding: 10px;
+    background-color: rgba(255, 228, 196, 0.812);
+    color: black;
+    border-radius: 7px;
+    font-family: cursive;
+    font-size: 45px;
+    transition: all 0.3s;
+   z-index: 4;
+}
+
+.b3:hover{
+  font-size: 60px;
+  background-color: rgba(214, 192, 164, 0.929);
+  color: rgb(0, 0, 0);
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.b3:active{
+  font-size: 75px;
+  transform: scale(1.06);
+  background-color: rgba(215, 0, 0, 0.923);
+  color: rgb(94, 0, 0);
+}
+#anim1 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 45%;
+  left: 40%;
+  pointer-events: none;
+  z-index: 3;
+  opacity: 0.7;
+  transform: scale(2);
+}
+#anim2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -30vh;
+  left: 40vw;
+  pointer-events: none;
+  z-index: 3;
+  opacity: 0.7;
+  transform: scale(5.5);
+}

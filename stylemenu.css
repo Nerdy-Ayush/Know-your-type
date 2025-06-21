@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("people.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+
+
+}
+h1 {
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.471);
+    font-size: 70px;
+    color: #d5055f;
+    font-family: cursive;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+p { 
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    margin: 10px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+}
+.b1 {
+    margin: 10px;
+    border: 10px;
+    border-color: black;
+    width: 300px;
+    height: 120px;
+    padding: 10px;
+    background-color: rgba(255, 228, 196, 0.812);
+    color: black;
+    border-radius: 7px;
+    font-family: cursive;
+    font-size: 45px;
+    transition: all 0.3s;
+}
+
+.b1:hover{
+  font-size: 60px;
+  background-color: rgba(214, 192, 164, 0.929);
+  color: rgb(0, 0, 0);
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.b1:active{
+  font-size: 75px;
+  transform: scale(1.06);
+  background-color: rgba(215, 0, 0, 0.923);
+  color: rgb(94, 0, 0);
+}
+.c1 {
+  text-align: center;
+}
+#ani1 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 10;
+  opacity: 0.8;
+  transform: scale(3);
+}
